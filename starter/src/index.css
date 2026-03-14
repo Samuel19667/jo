@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+--cream:#FAF7F2;
+--parchment:#F3EDE2;
+--parchment2:#EDE4D4;
+
+--espresso:#1C1008;
+
+--brown:#3D2B1F;
+--brown-mid:#6B4C3B;
+--brown-light:#A07860;
+
+--sand:#C8B49A;
+--sand-light:#E0D4C4;
+
+--terra:#C4622D;
+--terra-light:#E8855A;
+--terra-pale:#FAEADE;
+
+--amber:#D4922A;
+--amber-light:#F2BC6A;
+--amber-pale:#FDF3DF;
+
+--sage:#5C7A62;
+--sage-pale:#EBF2EC;
+
+}
+
+body{
+background:var(--cream);
+font-family:'Outfit',sans-serif;
+}
+
+.job-card{
+border-radius:16px;
+background:white;
+padding:24px 28px;
+transition:all .2s ease;
+border:1px solid var(--sand-light);
+}
+
+.job-card:hover{
+transform:translateY(-2px);
+border-color:rgba(196,98,45,.28);
+box-shadow:0 16px 48px rgba(28,16,8,.14);
+}
+
+.tag{
+font-size:12px;
+font-weight:600;
+padding:6px 10px;
+border-radius:8px;
+transition:all .18s cubic-bezier(.34,1.56,.64,1);
+}
+
+.t-lang{
+background:var(--terra-pale);
+color:var(--terra);
+}
+
+.t-lang:hover{
+background:var(--terra);
+color:white;
+transform:scale(1.06);
+box-shadow:0 4px 12px rgba(196,98,45,.3);
+}
+
+.t-tool{
+background:var(--amber-pale);
+color:#9A6B18;
+}
+
+.t-tool:hover{
+background:var(--amber);
+color:white;
+transform:scale(1.06);
+}
+
+.filter-chip{
+background:var(--terra-pale);
+color:var(--terra);
+border-radius:8px;
+display:flex;
+overflow:hidden;
+}
+
+.filter-remove{
+background:var(--terra);
+color:white;
+padding:0 6px;
+}
+
+.filter-remove:hover{
+background:var(--brown);
+}
+
+.apply-btn{
+background:var(--espresso);
+color:var(--cream);
+font-weight:600;
+font-size:12px;
+padding:8px 14px;
+border-radius:8px;
+transition:all .2s;
+}
+
+.apply-btn:hover{
+background:var(--terra);
+transform:translateX(2px);
+box-shadow:0 6px 18px rgba(196,98,45,.35);
+}
+
+.hero{
+min-height:420px;
+background:var(--espresso);
+color:var(--cream);
+padding:80px 48px 72px;
+position:relative;
+overflow:hidden;
+}
+
+.hero h1{
+font-family:'Playfair Display',serif;
+font-size:72px;
+font-weight:900;
+}
+
+.hero .accent{
+color:var(--terra-light);
+font-style:italic;
+}
+
+.filter-bar{
+margin-top:-28px;
+padding:18px 24px;
+background:white;
+border-radius:16px;
+box-shadow:0 16px 48px rgba(28,16,8,.14),0 0 0 4px rgba(196,98,45,.04);
+}
