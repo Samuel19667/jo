@@ -17,15 +17,6 @@ Challenges like this one help you improve your skills by building real-world pro
 
 Your users should be able to:
 
-- [x] View the optimal layout for the site depending on their device's screen size
-- [/] **Asynchronous Fetching**: Fetch all job listings from the external API on page load
-- [/] **Loading State**: Display a loading skeleton or message while data is being fetched
-- [/] **Error Handling**: Show a user-friendly error message if the API call fails
-- [/] See all job listings once loaded
-- [/] Filter job listings by clicking on the skill tags (e.g. "React", "Fullstack")
-- [/] When one or more filters are active, only show jobs that match **all** selected tags
-- [/] Add and remove filter tags from the filter bar at the top of the page
-- [x] See hover states for all interactive elements on the page
 
 **Bonus challenges (optional):**
 - [ ] The filter bar should only be visible when at least one filter is active
