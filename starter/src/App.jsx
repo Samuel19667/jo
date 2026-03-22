@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "https://jobs-api-l3e2.onrender.com/api/jobs";
+const API_URL = "https://jobs-api-bgrn.onrender.com";
 // TODO: Replace this with your hosted API URL when ready
 function App() {
   const [jobs, setJobs] = useState([]);
