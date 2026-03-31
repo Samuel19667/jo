@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "https://jobs-api-bgrn.onrender.com";
+const API_URL = "https://jobs-api-iwks.onrender.com/api/jobs";
 // TODO: Replace this with your hosted API URL when ready
 function App() {
   const [jobs, setJobs] = useState([]);
@@ -63,7 +63,7 @@ function App() {
 
   if (error) {
     return (
-      <div style={{ padding: "100px", textAlign: "center" }}>
+      < div style={{ padding: "100px", textAlign: "center" }}>
         <h2>Connection Error</h2>
         <p>{error}</p>
         <button onClick={() => window.location.reload()}>Retry</button>
